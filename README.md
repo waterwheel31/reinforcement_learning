@@ -4,14 +4,14 @@ This repository contains traditional (not using deep learning) reinforcement lea
 
 <br>
 
-- Monte Carlo / Epcilon-Greedy Methods (for Black Jack card game)
-- Temporal Difference Methods (for Cliff-Walking-Environemnt)
+- Monte Carlo / Epcilon-Greedy Methods (on Black Jack card game)
+- Temporal Difference Methods (on Cliff-Walking-Environemnt)
     - SARSA
     - Q-Learning(SARSA-MAX)
     - Expected SARSA 
 - Techniques for Continuous Spaces
-    - Discretization
-    - Tile Coding
+    - Uniform Grid (on Mountain Car Environment https://gym.openai.com/envs/MountainCar-v0/)
+    - Tile Coding (on Acrobot-v1 env. https://gym.openai.com/envs/Acrobot-v1/)
     
 
 
@@ -29,17 +29,19 @@ This repository contains traditional (not using deep learning) reinforcement lea
 
 ![image](./images/montecarlo1.png)
 
-
-- using Epcilon-Greedy Method
-
-![image](./images/greedy1.png)
-
-
 #### State Values of Cliff Walking
 
 - using SARSA Expected Method
 
 ![image](./images/sarsa-expected1.png)
+
+
+#### Q-Value and End Result of MountainCar Environment 
+
+- using Uniform Grid preprocessing
+
+![image](./images/uniform_goal.png)
+![image](./images/uniform_q.png)
 
 
 
