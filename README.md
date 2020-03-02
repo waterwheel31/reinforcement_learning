@@ -1,10 +1,14 @@
-### Reinforcement Learning Excercise
+## Reinforcement Learning Excercise
 
 This repository contains traditional (not using deep learning) reinforcement learning excercises as followings. This is a part of Udacity Deep Reinforcement Learning Nanodegree. 
 
-- Monte Carlo Method
-- Temporal Difference Method
-- (OpenAI) Taxi Project
+<br>
+
+- Monte Carlo / Epcilon-Greedy Methods (for Black Jack card game)
+- Temporal Difference Methods (for Cliff-Walking-Environemnt)
+    - SARSA
+    - Q-Learning(SARSA-MAX)
+    - Expected SARSA 
 - Techniques for Continuous Spaces
     - Discretization
     - Tile Coding
@@ -12,17 +16,31 @@ This repository contains traditional (not using deep learning) reinforcement lea
 
 
 
-#### Sample Images 
+<br><br>
 
-- Sate-Values of Monte Carlo Method (for Black Jack)
+### Some Results 
+
+#### State-Values of Black Jack card game 
+
+![from_pixabay](./images/cards-1030852_640.jpg)
+(image: pixabay)
+
+- using Monte Carlo Method
 
 ![image](./images/montecarlo1.png)
 
 
-- State-Vlaues of Epsilon-Greedy Policy (for Black Jack)
-
+- using Epcilon-Greedy Method
 
 ![image](./images/greedy1.png)
+
+
+#### State Values of Cliff Walking
+
+- using SARSA Expected Method
+
+![image](./images/sarsa-expected1.png)
+
 
 
 
