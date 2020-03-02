@@ -45,4 +45,13 @@ This repository contains traditional (not using deep learning) reinforcement lea
 
 
 
+<br><br>
+
+#### Tile encoding
+
+
+![image](./images/tile_encoding.png)
+
+
+
 
